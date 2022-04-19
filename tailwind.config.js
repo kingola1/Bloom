@@ -1,7 +1,16 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'bloom-black'  : '#1D1D1D',
+        'bloom-orange' : '#FF8100',
+      },
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+      }
+    },
+    
   },
   plugins: [],
 }
