@@ -473,15 +473,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(29 29 29 / var(--tw-bg-opacity));
 }
 
-.text-center {
-  text-align: center;
-}
-
-.text-slate-50 {
-  --tw-text-opacity: 1;
-  color: rgb(248 250 252 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
