@@ -514,6 +514,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: auto;
 }
 
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -522,11 +532,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-24 {
   margin-top: 6rem;
   margin-bottom: 6rem;
-}
-
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 .my-48 {
@@ -552,11 +557,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
-}
-
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
 }
 
 .mr-3 {
@@ -823,16 +823,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 4rem;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
-}
-
-.gap-12 {
-  gap: 3rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -1224,28 +1216,21 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: relative;
   }
 
-  .-bottom-10 {
-    bottom: -2.5rem;
+  .md\:bottom-10 {
+    bottom: 2.5rem;
   }
 
   .md\:-top-5 {
     top: -1.25rem;
   }
 
-  .md\:-bottom-20 {
-    bottom: -5rem;
-  }
-
-  .md\:-bottom-10 {
-    bottom: -2.5rem;
-  }
-
-  .md\:bottom-10 {
-    bottom: 2.5rem;
-  }
-
   .md\:order-2 {
     order: 2;
+  }
+
+  .md\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .md\:mx-8 {
@@ -1276,11 +1261,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:my-24 {
     margin-top: 6rem;
     margin-bottom: 6rem;
-  }
-
-  .md\:mx-12 {
-    margin-left: 3rem;
-    margin-right: 3rem;
   }
 
   .md\:ml-12 {
@@ -1423,16 +1403,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 2rem;
   }
 
-  .md\:gap-24 {
-    gap: 6rem;
-  }
-
   .md\:gap-16 {
     gap: 4rem;
-  }
-
-  .md\:gap-12 {
-    gap: 3rem;
   }
 
   .md\:p-20 {
@@ -1503,11 +1475,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 1.75rem;
   }
 
-  .md\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-
   .md\:font-semibold {
     font-weight: 600;
   }
@@ -1530,14 +1497,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin: 2.5rem;
   }
 
-  .lg\:mx-8 {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
   .lg\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
+  }
+
+  .lg\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .lg\:mt-28 {
@@ -1673,6 +1640,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 2rem;
   }
 
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .lg\:text-9xl {
     font-size: 8rem;
     line-height: 1;
@@ -1686,11 +1658,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .lg\:font-semibold {
