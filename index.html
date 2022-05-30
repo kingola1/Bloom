@@ -12,7 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Home</title>
-</head><body class="bg-bloom-black text-white">
+</head><body class="bg-bloom-black text-white justify-between items-center">
 
     <!-- HEADER -->
     <nav class="p-5">
@@ -137,27 +137,48 @@
 
     <!-- HERO SECTION -->
     <section>
-        <div class="sm:flex mx-8 md:mt-24 xl:px-24">
-            <div class="md:order-2 md:basis-1/2 md:ml-16 md:mt-12 flex justify-center items-center">
-                <img src="images/hero-image.png" alt="">
+        <div class="sm:flex mx-8 relative md:mt-24 lg:mx-8 xl:px-0">
+            <div class="md:order-2 z-10 md:basis-4/5 md:mt-12 flex justify-center items-center">
+                <img class="" src="images/hero-image.png" alt="">
             </div>
-            <div class="mt-12 md:mt-28 lg:mt-28">
-                <h1 class="text-4xl font-bold text-center md:ml-8 md:basis-1/2 md:text-5xl">We're a digital Agency.</h1>
-                <div class="mt-8 mb-16 lg:mt-16 flex justify-center items-center"><button class="inline-block border border-bloom-orange px-8 lg:px-16 xl:px-20 shadow-lg
-                     shadow-bloom-orange/20 py-3 lg:py-5 xl:py-7 text-white box-border-gradient font-medium lg:text-2xl text-xl">Get Started</button>
+         <!-- Banner warped rings image -->
+            <div class ="z-0 absolute hidden lg:block lg:right-5 lg:-top-36">
+                <svg width="580" height="580" viewBox="0 0 750 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M585 246C636 260.5 651.5 258.5 677.5 278C722.713 311.91 739.659 413.158 722.713 454.039C701.531 
+                        505.14 638.647 520.472 611 544.5C581.606 570.047 531.012 583.751 494 604.5C461 623 434.098 644.553 351.152 
+                        633.771C268.207 622.989 197.043 546.818 177.493 459.576C157.943 372.335 213.984 257.251 325.872 214.924C437.76 
+                        172.597 521.541 227.958 585 246Z" stroke="#FF8100"/>
+                        <path d="M588.5 271C629.304 284.426 646.5 300 667.818 
+                        322.027C690.046 354.337 730.584 428.409 714.91 466.221C695.318 513.487 635.5 552.5 552 565C515.444 570.472 
+                        484 590.5 457 598.5C426.195 607.627 360.76 617.779 324 613C301.5 610.075 222.079 522.5 210.615 471.343C192.533 
+                        390.651 244.367 284.205 347.857 245.055C451.346 205.905 530.536 251.927 588.5 271Z" stroke="#FF8100"/>
+                        
+                    <path d="M573 318.5C611.369 326.745 632 344.478 643.853 361.707C662.318 388.548 695.995 450.083 682.974 481.496C666.698 
+                        520.761 616.605 556.404 556 580.5C514.5 597 479.5 608.5 453.5 608.5C381.808 608.5 405.734 640.785 342 632.5C278.265 624.215 
+                        279.057 552.786 264.035 485.751C249.013 418.716 292.074 330.287 378.047 297.763C464.02 265.24 523.438 307.85 573 318.5Z" stroke="#FF8100"/>
+                </svg>
+            </div>
+                <!-- /Banner warped rings image -->
+
+            
+            <div class="mt-12 md:mt-28 px-0 lg:mt-28">
+                <h1 class="text-4xl font-bold text-center md:ml-0 md:basis-2/5 lg:text-6xl md:text-5xl">We're a digital Agency.</h1>
+                <div class="mt-8 mb-16 lg:mt-16 flex justify-center items-center"><button class="inline-block border border-bloom-orange px-8 lg:px-20 xl:px-20 shadow-lg
+                     shadow-bloom-orange/20 py-3 lg:py-4 xl:py-6 text-white box-border-gradient font-medium lg:text-2xl text-xl">Get Started</button>
                 </div>
             </div>
         </div>
-        <div class="md:relative md:bottom-10 mx-8 border shadow-2xl shadow-bloom-orange/5
+        <div class="md:relative md:bottom-10 z-50 mx-8 border shadow-2xl shadow-bloom-orange/5
                     backdrop-blur-2xl bg-black/5 border-bloom-orange  p-10 md:mx-24 md:py-24 md:p-20 md:mb-24
                     box-border-gradient">
             <div class="text-center font-normal">
                 <div class="flex justify-center items-center"><h1 class="font-bold  pb-4 md:text-4xl border-b-2 w-40 md:w-80 border-bloom-orange">WE ARE BLOOM</h1></div>
-                <p class="text-base md:text-2xl lg:text-3xl md:text-left md:mb-10 pt-8 md:pt-16 md:font-semibold">
-                    We help create digital experiences through...Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit. Non dictum cras amet, ac sit vitae id tellus. 
-                    Lorem ipsum dolor sit amet, Non dictum cras amet, ac sit vitae id tellus.
-                </p>
+                <div class="text-base md:text-2xl lg:text-xl md:text-left md:mb-10 pt-8 md:pt-16 md:font-semibold">
+                    <p class="mb-12 lg:mb-12"> Digital Media is a team of specialists who works with Nigeria's leading brands to deliver the best digital experience & value to the right audience.</p>
+
+                    <p>We combine marketing, buyer's psychology, and design thinking to increase the sales revenue of authentic brands. We don't just come up with what's cool; 
+                    we craft the message your customers want to hear and one that you can deliver.</p>
+                </div>
             </div>
         </div>            
     </div>
@@ -168,14 +189,14 @@
 
     <!-- OUR WORKS -->
     <div class="mb-12 mt-24">
-        <div class="flex justify-center items-center"><h1 class="font-bold  pb-4 md:text-4xl border-b-2 w-24 md:w-56 border-bloom-orange">Our Works</h1></div>
+        <div class="flex justify-center items-center"><h1 class="font-bold  pb-4 md:text-4xl border-b-2 w-24 sm:w-48 lg:w-56  border-bloom-orange">Our Works</h1></div>
         
-        <div class="container md:mx-10 mt-10 pt-10 px-10 grid grid-cols-1 md:grid-cols-2 gap-16">
+        <div class="container md:mx-10 mt-10 pt-10 px-8 grid grid-cols-1 md:grid-cols-2 gap-12">
             <div class="bg-gray-300 xl:w-12/12 h-96 md:h-screen w-88 md:w-full"></div>
             <div class="bg-gray-300 xl:w-12/12 h-96 md:h-screen w-88 md:w-full"></div>
             <p class="font-bold xl:text-4xl text-2xl">4 Fruits</p>
         </div>
-        <div class="container md:mx-10 mt-10 pt-10 px-10 grid grid-cols-1 md:grid-cols-2 gap-16">
+        <div class="container md:mx-10 mt-10 pt-10 px-8 grid grid-cols-1 md:grid-cols-2 gap-12">
             <div class="bg-gray-300 xl:w-12/12 h-96 md:h-screen w-88 md:w-full"></div>
             <div class="bg-gray-300 xl:w-12/12 h-96 md:h-screen w-88 md:w-full"></div>
             <p class="font-bold xl:text-4xl text-2xl">4 Fruits</p>
@@ -196,22 +217,23 @@
     </div>
 
     <!-- /OUR WORKS -->
+
+     <!-- LET'S TALK ABOUT YOU -->
+     <div class="text-center my-64">
+        <h1 class="text-3xl mx-5 md:text-5xl md:tracking-wide font-bold mb-6">Let’s talk about you</h1>
+        <p class="text-lg p-5 md:text-2xl mb-8 font-medium">Hop on a quick call with our best marketing specialist to discuss how we can help you </p>
+        <button class="text-center rounded-full bg-white px-5 py-3 lg:px-16 lg:py-7 font-bold text-bloom-orange hover:text-white hover:bg-bloom-orange text-xl lg:text-2xl">Contact Us</button>
+    </div>
+
+    <!-- /LET'S TALK ABOUT YOU -->
     
     <!-- OUR SERVICES -->
     <div class="my-48">
-        <div class="mb-20">
-            <div class="flex justify-center items-center"><h1 class="font-bold pb-4 md:text-4xl border-b-2 w-28 md:w-64 border-bloom-orange">Our Services</h1></div>
-            <div class="flex justify-center items-center">
-                <p class="text-center text-base pt-10 font-medium mx-10 md:mx-20">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non dictum cras amet, 
-                ac sit vitae id tellus. Elementum et nunc nunc non facilisis sit gravida.
-                Hendrerit elementum tincidunt leo magna suspendisse amet. 
-                Pellentesque lobortis mattis ultricies nec id facilisis viverra est donec.
-                </p>
-            </div>
+        <div class="mb-4">
+            <div class="flex justify-center items-center"><h1 class="font-bold pb-4 lg:pb-8 md:text-4xl border-b-2 w-28 md:w-64 border-bloom-orange">Our Services</h1></div>
         </div>
         <div class="flex justify-center items-center">
-            <div class="sm:my-24 lg:mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-16 lg:gap-4 xl:mx-36 xl:gap-32">
+            <div class="my-24 md:ml-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 lg:gap-4 xl:mx-24 xl:gap-24">
                 <div class="">
                     <h1 class="w-56 h-12 xl:w-64 xl:h-16 pt-2 text-center xl:pt-4 inline-block border border-bloom-orange shadow-lg
                         shadow-bloom-orange/20 box-border-gradient text-white xl:text-xl text-lg font-semibold">Digital Marketing
@@ -273,15 +295,6 @@
 
     <!-- /OUR SERVICES -->
 
-    <!-- LET'S TALK ABOUT YOU -->
-    <div class="text-center container md:ml-12 mb-64">
-        <h1 class="text-3xl mx-5 md:text-5xl md:tracking-wide font-bold mb-6">Let’s talk about you</h1>
-        <p class="text-lg p-5 md:text-2xl mb-8 font-medium">Please get in touch here to discuss how we can help</p>
-        <button class="text-center rounded-full bg-white px-5 py-3 lg:px-16 lg:py-7 font-bold text-bloom-orange text-xl lg:text-2xl">Contact Us</button>
-    </div>
-
-    <!-- /LET'S TALK ABOUT YOU -->
-
     <!-- TESTIMONIALS -->
     <div class="text-center md:mb-24">
         <div class="flex justify-center items-center"><h1 class="font-bold pb-4 md:text-4xl border-b-2 w-28 md:w-64 border-bloom-orange">Testimonials</h1></div>
@@ -289,55 +302,56 @@
         <p class="text-base mt-10 font-medium">Our clients says their satisfaction</p>
     </div>
     
-    <div class="container grid grid-cols-1 md:grid-cols-3 lg:ml-10 mt-12 mb-32 lg:mb-64 px-16 lg:px-12 xl:px-36 lg:m-10 gap-2">
+    <div class="flex justify-center items-center">
+        <div class="container grid grid-cols-1 md:grid-cols-3 md:ml-5 lg:ml-5 mt-12 mb-32 lg:mb-64 px-16 xl:mx-24 xl:gap-24 lg:px-8 gap-2">
 
-        <!-- TESTIMONIAL CARD 1 -->
-        <div class="inline-block w-48 h-72 m-auto lg:w-72 lg:h-fit mb-16 bg-neutral-800 border box-border-gradient border-bloom-orange">
-            <div class="text-6xl lg:text-9xl lg:h-8 h-3 lg:p-5 p-3 text-left text-bloom-orange">“</div>
-            <p class="px-5 mt-8 lg:font-medium font-light leading-tight lg:text-sm text-xs text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non dictum cras amet, ac sit vitae id tellus. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non dictum cras amet, ac sit vitae id tellus.
-            </p>
-            <div class="border-b-2 mt-4 mb-4 w-40 lg:mt-16 lg:mb-8 mx-4 lg:w-64 border-bloom-orange"></div>
-            <div class="text-center">
-              <h5 class="lg:font-bold font-semibold mb-2 text-sm">Mrs Temi Temi.</h5>
-              <p class="text-xs font-normal lg:font-medium mb-8">CEO Lorem Ipsum.</p>
+            <!-- TESTIMONIAL CARD 1 -->
+            <div class="inline-block w-48 h-72 m-auto lg:w-72 lg:h-5/6 xl:w-96 xl:h-full mb-16 bg-neutral-800 border box-border-gradient border-bloom-orange">
+                <div class="text-6xl lg:text-8xl lg:h-8 h-3 lg:p-5 p-3 text-left text-bloom-orange">“</div>
+                <p class="px-5 mt-8 lg:font-medium font-light leading-tight lg:text-sm text-xs text-left">
+                    Working with Bloom media has brought a tremendous increase in our business sales and social media engagement, thank you, Bloom!
+                </p>
+                <div class="border-b-2 mt-4 mb-4 md:mt-10 w-40 lg:mt-16 lg:mb-8 mx-4 lg:w-64 border-bloom-orange"></div>
+                <div class="text-center">
+                <h5 class="lg:font-bold font-semibold mb-2 text-sm">Mrs Temi Temi.</h5>
+                <p class="text-xs font-normal lg:font-medium mb-8">CEO Lorem Ipsum.</p>
+                </div>
             </div>
-        </div>
 
-        
-        <!-- TESTIMONIAL CARD 2 -->
-        <div class="inline-block w-48 h-72 m-auto lg:w-72 lg:h-fit mb-16 bg-neutral-800 border box-border-gradient border-bloom-orange">
-            <div class="text-6xl lg:text-9xl lg:h-8 h-3 lg:p-5 p-3 text-left text-bloom-orange">“</div>
-            <p class="px-5 mt-8 lg:font-medium font-light leading-tight text-xs lg:text-sm text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non dictum cras amet, ac sit vitae id tellus. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non dictum cras amet, ac sit vitae id tellus.
-            </p>
-            <div class="border-b-2 mt-4 mb-4 w-40 lg:mt-16 lg:mb-8 mx-4 lg:w-64 border-bloom-orange"></div>
-            <div class="text-center">
-              <h5 class="lg:font-bold font-semibold mb-2 text-sm">Mrs Temi Temi.</h5>
-              <p class="text-xs font-normal lg:font-medium mb-8">CEO Lorem Ipsum.</p>
+            
+            <!-- TESTIMONIAL CARD 2 -->
+            <div class="inline-block w-48 h-72 m-auto lg:w-72 lg:h-5/6 xl:w-96 xl:h-full mb-16 bg-neutral-800 border box-border-gradient border-bloom-orange">
+                <div class="text-6xl lg:text-8xl lg:h-8 h-3 lg:p-5 p-3 text-left text-bloom-orange">“</div>
+                <p class="px-5 mt-8 lg:font-medium font-light leading-tight text-xs lg:text-sm text-left">
+                    Bloom Media is a digital agency where you get above what you'd ever expect. 
+                    This was my case when I hired them for my brand activation. Well done guy!
+                </p>
+                <div class="border-b-2 mt-4 mb-4 md:mt-10 w-40 lg:mt-16 lg:mb-8 mx-4 lg:w-64 border-bloom-orange"></div>
+                <div class="text-center">
+                <h5 class="lg:font-bold font-semibold mb-2 text-sm">Mrs Temi Temi.</h5>
+                <p class="text-xs font-normal lg:font-medium mb-8">CEO Lorem Ipsum.</p>
+                </div>
             </div>
-        </div>
 
-        <!-- TESTIMONIAL CARD 3 -->
-        <div class="inline-block w-48 h-72 m-auto lg:w-72 lg:h-fit mb-16 bg-neutral-800 border box-border-gradient border-bloom-orange">
-            <div class="text-6xl lg:text-9xl lg:h-8 h-3 lg:p-5 p-3 text-left text-bloom-orange">“</div>
-            <p class="px-5 mt-8 lg:font-medium font-light leading-tight text-xs lg:text-sm text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non dictum cras amet, ac sit vitae id tellus. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non dictum cras amet, ac sit vitae id tellus.
-            </p>
-            <div class="border-b-2 mt-4 mb-4 w-40 lg:mt-16 lg:mb-8 mx-4 lg:w-64 border-bloom-orange"></div>
-            <div class="text-center">
-              <h5 class="lg:font-bold font-semibold mb-2 text-sm">Mrs Temi Temi.</h5>
-              <p class="text-xs font-normal lg:font-medium mb-8">CEO Lorem Ipsum.</p>
+            <!-- TESTIMONIAL CARD 3 -->
+            <div class="inline-block w-48 h-72 m-auto lg:w-72 lg:h-5/6 xl:w-96 xl:h-full mb-16 bg-neutral-800 border box-border-gradient border-bloom-orange">
+                <div class="text-6xl lg:text-8xl lg:h-8 h-3 lg:p-5 p-3 text-left text-bloom-orange">“</div>
+                <p class="px-5 mt-8 lg:font-medium font-light leading-tight text-xs lg:text-sm text-left">
+                    I had low engagements on all my social platforms before hiring Bloom Media, these guys are incredible. 
+                    I started receiving great leads to my product page just within 2 months with Bloom media 
+                </p>
+                <div class="border-b-2 mt-4 mb-4 w-40 lg:mt-7 lg:mb-8 mx-4 lg:w-64 border-bloom-orange"></div>
+                <div class="text-center">
+                <h5 class="lg:font-bold font-semibold mb-2 text-sm">Mrs Temi Temi.</h5>
+                <p class="text-xs font-normal lg:font-medium mb-8">CEO Lorem Ipsum.</p>
+                </div>
             </div>
         </div>
     </div>
     <!-- /TESTIMONIALS -->
 
     <!-- ETISALAT -->
-    <div class="p-8 md:my-48 mx-5 md:ml-20">
+    <div class="p-8 md:my-48 mx-5 md:mx-12">
         <img class="mb-16" src="images/eti.png" alt="">
         <img src="images/eti.png" alt="">
     </div>
@@ -389,8 +403,9 @@
                     <div class="w-11/12 border-t-2 mb-5 border-bloom-orange "></div>
                 </div>
                 
-                <div class="text-xl md:text-3xl font-semibold text-center">
-                    <p class="h-36 mt-12 p-5">Get Connected</p>
+                <div class="font-semibold mb-24 text-center">
+                    <p class="text-xl md:text-3xl mt-12 p-5">Get Connected</p>
+                    <p class="text-sm md:text-lg p-5">Be among the winning brands today!</p>
                 </div>
     
     
