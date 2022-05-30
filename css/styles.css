@@ -510,34 +510,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.bottom-24 {
-  bottom: 6rem;
-}
-
-.left-24 {
-  left: 6rem;
-}
-
-.top-24 {
-  top: 6rem;
-}
-
-.bottom-36 {
-  bottom: 9rem;
-}
-
-.bottom-64 {
-  bottom: 16rem;
-}
-
-.bottom-80 {
-  bottom: 20rem;
-}
-
-.bottom-96 {
-  bottom: 24rem;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -562,6 +534,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: auto;
 }
 
+.my-40 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -570,6 +547,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .mx-5 {
@@ -597,19 +579,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
-}
-
-.my-40 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
 }
 
 .mr-3 {
@@ -710,22 +682,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-24 {
   margin-bottom: 6rem;
-}
-
-.mb-48 {
-  margin-bottom: 12rem;
-}
-
-.mb-64 {
-  margin-bottom: 16rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mt-64 {
-  margin-top: 16rem;
 }
 
 .block {
@@ -848,10 +804,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 8rem;
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -892,16 +844,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-16 {
   gap: 4rem;
 }
 
 .gap-2 {
   gap: 0.5rem;
-}
-
-.gap-12 {
-  gap: 3rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -964,11 +916,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   fill: #FF8100;
 }
 
-.object-center {
-  -o-object-position: center;
-     object-position: center;
-}
-
 .p-5 {
   padding: 1.25rem;
 }
@@ -1018,11 +965,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -1043,6 +985,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-0 {
   padding-left: 0px;
+}
+
+.pb-96 {
+  padding-bottom: 24rem;
 }
 
 .pb-4 {
@@ -1069,22 +1015,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.5rem;
 }
 
-.pb-96 {
-  padding-bottom: 24rem;
-}
-
-.pb-48 {
-  padding-bottom: 12rem;
-}
-
-.pt-64 {
-  padding-top: 16rem;
-}
-
-.pt-40 {
-  padding-top: 10rem;
-}
-
 .pt-32 {
   padding-top: 8rem;
 }
@@ -1100,6 +1030,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-lg {
@@ -1140,11 +1075,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-medium {
@@ -1282,11 +1212,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 3rem;
   }
 
-  .sm\:my-24 {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-  }
-
   .sm\:mt-5 {
     margin-top: 1.25rem;
   }
@@ -1321,10 +1246,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:w-48 {
     width: 12rem;
-  }
-
-  .sm\:w-4 {
-    width: 1rem;
   }
 
   .sm\:py-5 {
@@ -1485,16 +1406,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 20rem;
   }
 
-  .md\:w-56 {
-    width: 14rem;
-  }
-
   .md\:w-64 {
     width: 16rem;
   }
 
-  .md\:w-96 {
-    width: 24rem;
+  .md\:w-56 {
+    width: 14rem;
   }
 
   .md\:basis-4\/5 {
@@ -1547,10 +1464,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:gap-8 {
     gap: 2rem;
-  }
-
-  .md\:gap-16 {
-    gap: 4rem;
   }
 
   .md\:p-20 {
@@ -1721,6 +1634,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 5rem;
   }
 
+  .lg\:w-56 {
+    width: 14rem;
+  }
+
   .lg\:w-6 {
     width: 1.5rem;
   }
@@ -1731,10 +1648,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-64 {
     width: 16rem;
-  }
-
-  .lg\:w-56 {
-    width: 14rem;
   }
 
   .lg\:grid-cols-4 {
@@ -1879,10 +1792,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:w-96 {
     width: 24rem;
-  }
-
-  .xl\:w-56 {
-    width: 14rem;
   }
 
   .xl\:gap-24 {
