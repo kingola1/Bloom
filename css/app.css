@@ -4,97 +4,17 @@
 
 
 /* CUSTOM STYLES */
-.bloom-shadow{/* Frame 4 */
+.box-border-gradient {
+        border-width: 1px;
+        border-style: solid;
+        border-image: linear-gradient(rgb(255, 129, 0), rgb(73, 49, 25), transparent) 1;
+}
 
-   
-    /* Rectangle 19 */
-    
-    position: absolute;
-    left: 22.08%;
-    right: 21.25%;
-    top: 33.75%;
-    bottom: 1.25%;
-    
-    background: rgba(255, 129, 0, 0.6);
-    filter: blur(40px);
-    border-radius: 30px;
-    
-    
-    /* Rectangle 18 */
-    
-    box-sizing: border-box;
-    
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    
-    background: #1D1D1D;
-    border-radius: 52px;
-    
-    
-    /* View All */
-    
-    position: absolute;
-    left: 19.58%;
-    right: 37.92%;
-    top: 32.5%;
-    bottom: 31.25%;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #FF8100;
-    
-    
-    
-    /* arrow */
-    
-    position: absolute;
-    left: 92.92%;
-    right: -7.08%;
-    top: 28.75%;
-    bottom: 28.75%;
-    
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    
-    
-    /* Ellipse 34 */
-    
-    position: absolute;
-    left: 92.92%;
-    right: -7.08%;
-    top: 28.75%;
-    bottom: 28.75%;
-    
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    
-    
-    /* Vector */
-    
-    position: absolute;
-    left: 89.58%;
-    right: 2.5%;
-    top: 50%;
-    bottom: 50%;
-    
-    border: 2px solid #FF8100;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    
-    
-    /* Vector */
-    
-    position: absolute;
-    left: 89.58%;
-    right: 7.5%;
-    top: 41.25%;
-    bottom: 41.25%;
-    
-    border: 2px solid #FF8100;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    }
+.box-border-raius-gradient {
+    background: 
+      linear-gradient(var(--rgb(255, 129, 0)), var(--transparent)) padding-box,
+      linear-gradient( rgb(255, 129, 0), transparent) border-box;
+    border-radius: 50em;
+    border-width: 1px;
+  }
 /* END OF CUSTOM STYLES */
